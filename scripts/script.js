@@ -19,6 +19,6 @@ $(document).ready(function() {
 
 function displayCountry(country) {
   $('.countryDisplay').append(
-    '<div><p>' + country.code + '</p><p>' + country.name + '</p>'
+    '<div class="country"><p>' + country.code + '</p><p>' + country.name + '</p></div>'
   );
 }
