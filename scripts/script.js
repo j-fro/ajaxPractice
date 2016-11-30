@@ -68,3 +68,13 @@ function buildBorderString(borders) {
   }
   return borderString;
 }
+
+function getTimeString(utcOffset) {
+  $.ajax({
+    url: 'http://www.timeapi.org/utc/now',
+    dataType: 'JSON',
+    sucess: function(data) {
+      
+    }
+  })
+}
